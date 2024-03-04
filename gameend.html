@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurray! GAME OVER</title>
+    <link rel="stylesheet" href="gameend.css">
+    <script src="script.js"></script>
+    
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="stars"><img src="stars.png" alt=""></div>
+            <div class="trophy"> <img src="trophy.png" alt=""></div>
+            
+           
+        </div>
+        <div class="hurray"><h1>HURRAY!!</h1></div>
+        <div class="text2"><h2>YOU WON THE GAME</h2></div>
+        <div class="play_again_btn2">
+            <div class="play_again2" ><a href="index.html">PLAY AGAIN</a> </div>
+        </div>
+
+        <div class="rules" id="rules" onclick="rules(1)">RULES</div >   
+
+        <div id="modal" class="mymodal">
+            <div class="rules-popup">
+                    
+                <h1>Game Rules</h1>
+                <ul>
+                        <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                        <li>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                        <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                        <li>If both players lay down the same hand, each player lays down another hand</li>
+                </ul><button class="close" onclick="close_rules(0)">X</button>
+            </div>  
+        </div> 
+        
+    </div>
+
+    
+</body>
+</html>
